@@ -25,3 +25,32 @@ img{
     margin:  0;
     padding: 0;
 }
+
+ul{
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navbar{
+    background-color: rgb(38, 134, 194);
+    color: #fff;
+    height: 70px;  
+    font-size: x-large; 
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
