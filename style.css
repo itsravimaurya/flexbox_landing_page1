@@ -93,3 +93,22 @@ ul{
     margin: 20px 15px;
     box-shadow: 2px 2px 8px 2px #000000;
  }
+
+  .footer{
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+ @media (max-width:768px){
+    .main .container{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .feature{
+        display: block;
+         
+    }
+ }
