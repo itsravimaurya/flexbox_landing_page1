@@ -58,7 +58,7 @@ ul{
 .main{
     background-color: #0037ff;
     color: #fff;
-    min-height: 450px;
+    min-height: 400px;
 }
 
 .main h1{
@@ -67,7 +67,7 @@ ul{
 }
 
 .main img{
-    max-width: 500px; 
+    max-width: 400px; 
 }
 
 .main .container{
@@ -99,6 +99,7 @@ ul{
         color: #fff;
         text-align: center;
         margin-top: 40px;
+        padding: 10px 0px 10px 0px ;
     }
 
  @media (max-width:768px){
@@ -107,8 +108,9 @@ ul{
         text-align: center;
         padding-top: 20px;
     }
-    .feature{
+    .feature .container{
         display: block;
+        text-align: center;
          
     }
  }
