@@ -54,3 +54,25 @@ ul{
     display: flex;
     gap: 20px;
 }
+
+.main{
+    background-color: #0037ff;
+    color: #fff;
+    min-height: 450px;
+}
+
+.main h1{
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.main img{
+    max-width: 500px; 
+}
+
+.main .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
