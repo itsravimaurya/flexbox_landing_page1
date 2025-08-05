@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+body{
+    font-family: sans-serif;
+    background-color: #a3d9fd;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+html, body {
+  overscroll-behavior: none;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+img{
+    max-width: 100%;
+    max-height: auto;
+    margin:  0;
+    padding: 0;
+}
